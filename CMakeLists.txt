@@ -29,9 +29,8 @@ set(SOURCES
 # Add an executable
 add_executable(HW1 ${SOURCES})
 
-add_subdirectory(${CMAKE_BINARY_DIR}/googletest)
 
-include_directories(hello_headers    
+include_directories(HW1_headers    
         ${PROJECT_SOURCE_DIR}
 )
 
