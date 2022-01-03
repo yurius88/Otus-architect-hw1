@@ -29,6 +29,7 @@ set(SOURCES
 # Add an executable
 add_executable(HW1 ${SOURCES})
 
+add_subdirectory(${CMAKE_BINARY_DIR}/googletest)
 
 include_directories(hello_headers    
         ${PROJECT_SOURCE_DIR}
@@ -36,6 +37,7 @@ include_directories(hello_headers
 
 target_link_libraries(
   HW1
+  gtest
   gtest_main
 )
 
