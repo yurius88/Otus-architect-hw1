@@ -1,7 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 # workflow - цепочка действий
 # Имя процесса Билдится на всех типах 📦 🐍
-name: CMake Build Matrix
+name: HW1 CI
 
 # Controls when the action will run. Triggers the workflow on push
 on: 
